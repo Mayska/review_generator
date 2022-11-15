@@ -227,7 +227,7 @@ export default function Index() {
   if (item === "du Tableau") {
     secondParagraph = secondParagraph + tableauList[random(tableauList.length)] + "."
   } else if (item === "de la Fable") {
-    secondParagraph = secondParagraph + fableList[random(fableList.length)] + "De Jean de La Fontaine."
+    secondParagraph = secondParagraph + fableList[random(fableList.length)] + " De Jean de La Fontaine."
   } else if (item === "du Livre") {
     secondParagraph = secondParagraph + livreList[random(livreList.length)] + "."
   } else if (item === "du Conte") {
