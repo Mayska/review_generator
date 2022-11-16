@@ -197,9 +197,9 @@ export default function Index() {
   ]
 
   const thirdParagraphPart1 = [
-    "Pour une mise en scène",
-    "Pour une direction d'acteurs",
-    "Pour une photographie"
+    "Avec une mise en scène",
+    "Avec une direction d'acteurs",
+    "Avec une photographie"
   ]
   const thirdParagraphPart2 = [
     "qui va mettre tout le monde d'accord",
