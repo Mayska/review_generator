@@ -214,6 +214,39 @@ export default function Index() {
     "qui apporte un nouveau souffle"
   ]
 
+  const styleMusiqueList = [
+    "Acid blues",
+    "Acid breaks",
+    "Acid house",
+    "Acid jazz",
+    "Acid rock",
+    "Acid techno",
+    "Acid trance",
+    "Acidcore",
+    "Adult contemporary",
+    "Afrobeat",
+    "Afropop",
+    "Afrotrap",
+    "Aguinaldo",
+    "Allaoui",
+    "Ambient",
+    "Ambient house",
+    "Ambient jungle",
+  ]
+
+  const musiqueListe = [
+    "Ode à la joie - 9e symphonie de Beethoven",
+    "Prélude n°1 du Clavier bien tempéré de Jean-Sébastien Bach",
+    "Prélude à l’après-midi d’un faune de Debussy",
+    "Adagio d’Albinoni de Remo Giazotto",
+    "Carmen de G. Bizet",
+    "Ave Maria de J. S. Bach",
+    "Ave maria de – F. Schubert",
+    "La Reine de la nuit de - Mozart",
+    "La Traviata de G. Verdi",
+    "La Reine de la nuit de Mozart"
+  ]
+
   let start: string[] = []
   const begin = subjectList[random(subjectList.length)];
   if (begin === subjectList[0]) {
@@ -236,6 +269,10 @@ export default function Index() {
 
   const thirdParagraph = thirdParagraphPart1[random(thirdParagraphPart1.length)] + " " + thirdParagraphPart2[random(thirdParagraphPart2.length)]
   const fourthParagraph = "Comme le réalisateur le souligne: '" + fourthParagraphList[random(fourthParagraphList.length)] + "'"
+  const fifthParagraph = "La musique est une approche plus " + styleMusiqueList[random(styleMusiqueList.length)] + " de: "
+    + musiqueListe[random(musiqueListe.length)] + "."
+
+
   const porps = {
     headtitre: "Review generator",
     titre: "Générateur de critique évolué pour te la péter en société.",
