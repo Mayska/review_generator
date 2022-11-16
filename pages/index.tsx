@@ -437,7 +437,6 @@ export default function Index() {
           <div className="col">
           </div>
           <div className="col-10">
-            <br />
             <hr />
             <form action="/" method="GET">
               <p className='text fs-5'>{firstParagraph}</p>
