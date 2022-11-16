@@ -349,8 +349,27 @@ export default function Index() {
     "Crust punk",
     "Cumbia",
     "C86",
+    "Dance ou plus EDM",
+    "Dance-pop",
+    "Dance-punk",
+    "Dance-rock",
+    "Dancehall",
+    "Dangdut",
+    "Danzón",
+    "Dark ambient",
+    "Dark metal",
+    "Dark psytrance",
+    "Dark wave",
+    "Dark wave néo-classique",
+    "Darkcore plus darkside)",
+    "Darkcore ou doomcore",
+    "Darkstep",
+    "Death-doom",
+    "Death metal",
+    "Death metal mélodique",
+    "D-beat",
   ]
-  
+
   const musiqueListe = [
     "Ode à la joie - 9e symphonie de Beethoven",
     "Prélude n°1 du Clavier bien tempéré de Jean-Sébastien Bach",
