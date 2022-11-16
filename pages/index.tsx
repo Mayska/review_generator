@@ -403,7 +403,7 @@ export default function Index() {
     secondParagraph = secondParagraph + conteList[random(conteList.length)] + "."
   }
 
-  const thirdParagraph = thirdParagraphPart1[random(thirdParagraphPart1.length)] + " " + thirdParagraphPart2[random(thirdParagraphPart2.length)]
+  const thirdParagraph = thirdParagraphPart1[random(thirdParagraphPart1.length)] + " " + thirdParagraphPart2[random(thirdParagraphPart2.length)] +"."
   const fourthParagraph = "Comme le réalisateur le souligne: '" + fourthParagraphList[random(fourthParagraphList.length)] + "'"
   const fifthParagraph = "La musique est une approche plus " + styleMusiqueList[random(styleMusiqueList.length)] + " de "
     + musiqueListe[random(musiqueListe.length)] + "."
