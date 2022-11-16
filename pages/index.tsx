@@ -209,7 +209,7 @@ export default function Index() {
     "qui va renouveler le genre",
     "à mis chemin entre la nouvelle vague et un nouveau souffle du documentaire",
     "qui a sût retiré l'essence même du genre",
-    "qui sait vie avec son temps",
+    "qui sait vivre avec son temps",
     "qui va traverser de nouvelles générations futures",
     "qui apporte un nouveau souffle"
   ]
