@@ -439,11 +439,11 @@ export default function Index() {
           <div className="col-10">
             <hr />
             <form action="/" method="GET">
-              <p className='text fs-4'>{firstParagraph}</p>
-              <p className='text fs-4'>{thirdParagraph}</p>
-              <p className='text fs-4'>{secondParagraph}</p>
-              <p className='text fs-4'>{fifthParagraph}</p>
-              <p className='text fs-4 fst-italic'>{fourthParagraph}</p>
+              <p className='text fs-6'>{firstParagraph}</p>
+              <p className='text fs-6'>{thirdParagraph}</p>
+              <p className='text fs-6'>{secondParagraph}</p>
+              <p className='text fs-6'>{fifthParagraph}</p>
+              <p className='text fs-6 fst-italic'>{fourthParagraph}</p>
               <hr />
               <label>{porps.label}<button type="submit" className="btn btn-success">{porps.btntext}</button></label>
             </form>
