@@ -308,6 +308,7 @@ export default function Index() {
               <p className='text-center fs-5'>{firstParagraph}</p>
               <p className='text-center fs-5'>{secondParagraph}</p>
               <p className='text-center fs-5'>{thirdParagraph}</p>
+              <p className='text-center fs-5'>{fifthParagraph}</p>
               <p className='text-center fs-5 fst-italic'>{fourthParagraph}</p>
               <hr />
               <label>{porps.label}<button type="submit" className="btn btn-success">{porps.btntext}</button></label>
