@@ -294,7 +294,6 @@ export default function Index() {
 
       <main>
         <br />
-        <br />
         <h1 className="text-center">{porps.titre}</h1>
         <h5 className='text-center text-muted'>{porps.conclusion}</h5>
 
