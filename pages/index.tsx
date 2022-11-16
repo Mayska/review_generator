@@ -440,8 +440,8 @@ export default function Index() {
             <hr />
             <form action="/" method="GET">
               <p className='text fs-5'>{firstParagraph}</p>
-              <p className='text fs-5'>{secondParagraph}</p>
               <p className='text fs-5'>{thirdParagraph}</p>
+              <p className='text fs-5'>{secondParagraph}</p>
               <p className='text fs-5'>{fifthParagraph}</p>
               <p className='text fs-5 fst-italic'>{fourthParagraph}</p>
               <hr />
