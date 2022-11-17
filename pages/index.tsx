@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { subjectList } from './data/test'
 
 export default function Index() {
   const adberbList = [
@@ -165,11 +166,7 @@ export default function Index() {
     "charismatique",
     "avec une granularité folle",
   ]
-  const subjectList = [
-    "Une oeuvre",
-    "Un film",
-
-  ]
+  
 
   const tableauList = [
     "MONA LISA PAR LÉONARD DE VINCI",
