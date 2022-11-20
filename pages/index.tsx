@@ -9,7 +9,6 @@ export default function Index() {
     headtitre: "Review generator",
     titre: "Générateur de critique évolué pour te la péter en société.",
     finexcuse: ", donc je ne peux pas t'augmenter.",
-    promesse: "La prochaine fois c'est promis...",
     label: "Raconte-toi là encore => ",
     btntext: "ICI",
     conclusion: "Tu n'as pas vu le film, mais tu veux donner ton avis...",
@@ -55,9 +54,4 @@ export default function Index() {
       </footer>
     </div>
   )
-}
-
-
-function random(max: number) {
-  return Math.floor(Math.random() * Math.floor(max));
 }

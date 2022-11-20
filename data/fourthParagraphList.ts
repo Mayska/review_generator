@@ -102,6 +102,17 @@ export const fourthParagraphList = [
   "“J'aime l'idée de cérémonie, cela va avec la magie du cinéma.”",
   "“On ne va plus au cinéma pour s'échapper, mais pour voir la vraie vie.”",
   "“Spielberg, c'est le Jeff Koons du cinéma”",
-  "“Je suis et resterai l'éternel Poulidor du cinéma”"
+  "“Je suis et resterai l'éternel Poulidor du cinéma”",
+  "Just do it!",
+  "Faire du ciel le plus bel endroit de la terre.",
+  "On se lève tous pour...",
+  "À fond la forme!",
+  "C'est beau la vie, pour les grands et les petits.",
+  "Think different!",
+  "Un autre style de vie.",
+  "C'est le plus grand de tous les héros.",
+  "Actif à l’intérieur et ça se voit à l’extérieur.",
+  "Impossible is nothing.",
+  "Initiés depuis 1074."
 
 ]

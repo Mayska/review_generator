@@ -18,5 +18,10 @@ export const maleList = [
     "capté a travers un filtre jaunie",
     "digne d'un grand blockbuste",
     "charismatique",
+    "captée a travers un filtre jaunie",
     "avec une granularité folle",
+    "qui faut voir avec ces yeux",
+    "qui va cruellement vous déchiré",
+    "qui va tous nous unir",
+    
   ]

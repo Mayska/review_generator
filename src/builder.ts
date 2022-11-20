@@ -26,16 +26,18 @@ export class Builder {
         this.fifthParagraph = this.getFifthParagraph()
         this.fourthParagraph = this.getFourthParagraph()
     }
-    getFourthParagraph(): string {
-        return "Comme le réalisateur le souligne: '" + fourthParagraphList[this.random(fourthParagraphList.length)] + "'"
+
+    private getFourthParagraph(): string {
+        return "Comme le réalisateur le souligne: '" + this.setItem(fourthParagraphList) + "'"
     }
-    getFifthParagraph(): string {
-        return "La musique est une approche plus " + styleMusiqueList[this.random(styleMusiqueList.length)] + " de "
-            + musiqueListe[this.random(musiqueListe.length)] + "."
+
+    private getFifthParagraph(): string {
+        return "La musique est une approche plus " + this.setItem(styleMusiqueList) + " de "
+            + this.setItem(musiqueListe) + "."
     }
 
     private getThirdParagraph(): string {
-        return thirdParagraphPart1[this.random(thirdParagraphPart1.length)] + " " + thirdParagraphPart2[this.random(thirdParagraphPart2.length)] + "."
+        return this.setItem(thirdParagraphPart1) + " " + this.setItem(thirdParagraphPart2) + "."
     }
 
     private random(max: number): number {
@@ -43,28 +45,32 @@ export class Builder {
     }
 
     private getFirstParagraph(): string {
-        return 'Un film' + " " + maleList[this.random(maleList.length)] + " " + endList[this.random(endList.length)] + "."
+        return 'Un film' + " " + this.setItem(maleList) + " " + this.setItem(endList) + "."
     }
 
     private getSecondParagraph(): string {
-        const item = itemList[this.random(itemList.length)];
-        let secondParagraph = "C'est " + adberbList[this.random(adberbList.length)] + " " + item + ": " + this.getItem(item);
+        const item = this.setItem(itemList);
+        let secondParagraph = "C'est " + this.setItem(adberbList) + " " + item + ": " + this.getItem(item);
         return secondParagraph
     }
 
     private getItem(item: string): string {
         switch (item) {
             case "du Tableau":
-                return tableauList[this.random(tableauList.length)] + "."
+                return this.setItem(tableauList) + "."
             case "de la Fable":
-                return fableList[this.random(fableList.length)] + " De Jean de La Fontaine."
+                return this.setItem(fableList) + " De Jean de La Fontaine."
             case "du Livre":
-                return livreList[this.random(livreList.length)] + "."
+                return this.setItem(livreList) + "."
             case "du Conte":
-                return conteList[this.random(conteList.length)] + "."
+                return this.setItem(conteList) + "."
             default:
                 throw 'Error getItem()'
         }
+    }
+
+    private setItem(list:string[]):string{
+        return list[this.random(list.length)]
     }
 }
 
