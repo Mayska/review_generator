@@ -38,6 +38,7 @@ export default function Index() {
               <p className='text fs-6'>{builder.thirdParagraph}</p>
               <p className='text fs-6'>{builder.secondParagraph}</p>
               <p className='text fs-6'>{builder.fifthParagraph}</p>
+              <p className='text fs-6'>{builder.sixParagraph.paragraphFakeMovie}</p>
               <p className='text fs-6 fst-italic'>{builder.fourthParagraph}</p>
               <hr />
               <label>{porps.label}<button type="submit" className="btn btn-success">{porps.btntext}</button></label>
