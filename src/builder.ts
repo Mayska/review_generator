@@ -32,7 +32,7 @@ export class Builder {
     }
 
     private getFifthParagraph(): string {
-        return "La musique est une approche plus " + this.setItem(styleMusiqueList) + " de "
+        return "La musique est une approche plus " + this.setItem(styleMusiqueList) + " du titre "
             + this.setItem(musiqueListe) + "."
     }
 
