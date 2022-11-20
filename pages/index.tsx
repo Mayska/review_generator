@@ -15,34 +15,10 @@ import { subjectList } from '../data/subjectList'
 import { tableauList } from '../data/tableauList'
 import { thirdParagraphPart1 } from '../data/thirdParagraphPart1'
 import { thirdParagraphPart2 } from '../data/thirdParagraphPart2'
+import { Builder } from '../src/builder'
 
 export default function Index() {
-
-  let start: string[] = []
-  const begin = subjectList[random(subjectList.length)];
-  if (begin === subjectList[0]) {
-    start = femaleList;
-  } else {
-    start = maleList;
-  }
-  const firstParagraph = begin + " " + start[random(start.length)] + " " + endList[random(endList.length)] + "."
-  const item = itemList[random(itemList.length)];
-  let secondParagraph = "C'est " + adberbList[random(adberbList.length)] + " " + item + ": ";
-  if (item === "du Tableau") {
-    secondParagraph = secondParagraph + tableauList[random(tableauList.length)] + "."
-  } else if (item === "de la Fable") {
-    secondParagraph = secondParagraph + fableList[random(fableList.length)] + " De Jean de La Fontaine."
-  } else if (item === "du Livre") {
-    secondParagraph = secondParagraph + livreList[random(livreList.length)] + "."
-  } else if (item === "du Conte") {
-    secondParagraph = secondParagraph + conteList[random(conteList.length)] + "."
-  }
-
-  const thirdParagraph = thirdParagraphPart1[random(thirdParagraphPart1.length)] + " " + thirdParagraphPart2[random(thirdParagraphPart2.length)] +"."
-  const fourthParagraph = "Comme le réalisateur le souligne: '" + fourthParagraphList[random(fourthParagraphList.length)] + "'"
-  const fifthParagraph = "La musique est une approche plus " + styleMusiqueList[random(styleMusiqueList.length)] + " de "
-    + musiqueListe[random(musiqueListe.length)] + "."
-
+  const builder = new Builder()
 
   const porps = {
     headtitre: "Review generator",
@@ -74,11 +50,11 @@ export default function Index() {
           <div className="col-10">
             <hr />
             <form action="/" method="GET">
-              <p className='text fs-6'>{firstParagraph}</p>
-              <p className='text fs-6'>{thirdParagraph}</p>
-              <p className='text fs-6'>{secondParagraph}</p>
-              <p className='text fs-6'>{fifthParagraph}</p>
-              <p className='text fs-6 fst-italic'>{fourthParagraph}</p>
+              <p className='text fs-6'>{builder.firstParagraph}</p>
+              <p className='text fs-6'>{builder.thirdParagraph}</p>
+              <p className='text fs-6'>{builder.secondParagraph}</p>
+              <p className='text fs-6'>{builder.fifthParagraph}</p>
+              <p className='text fs-6 fst-italic'>{builder.fourthParagraph}</p>
               <hr />
               <label>{porps.label}<button type="submit" className="btn btn-success">{porps.btntext}</button></label>
             </form>
