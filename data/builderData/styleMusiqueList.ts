@@ -104,7 +104,7 @@ export const styleMusiqueList = [
     "Chill-out",
     "Chillstep",
     "Chillwave",
-    "Chiptune ou même plus musique 8-bit)",
+    "Chiptune ou même plus musique 8-bit",
     "City pop",
     "Classic rag",
     "Cloud rap",

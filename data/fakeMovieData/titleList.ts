@@ -1,0 +1,42 @@
+export const title = {
+    start:[
+        "Mange,"
+    ],
+    middle:[
+        "Dort,"
+    ],
+    end:[
+        "Aime."
+    ],
+    origineList : [
+        "Afghan",
+        "Sud-Africain",
+        "Albanais",
+        "L'Algérien",
+        "l'Allemand",
+        "Andorran",
+        "Angolais",
+        "Antiguayen",
+        "Saoudien",
+        "Argentin",
+        "Arménien",
+        "Australien",
+        "Autrichien",
+        "Azerbaïdjanais",
+        "Austro-Hongrois",
+        "Bahamien",
+        "Bahreïni",
+        "Bangladais",
+        "Barbadien",
+        "Belge",
+        "Bélizien",
+        "Béninois",
+        "Bhoutanais",
+        "Biélorusse",
+        "Birman",
+        "Bolivien",
+        "Bosnien",
+        "Botswanais",
+        "Brésilien"
+    ]
+}

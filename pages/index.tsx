@@ -4,7 +4,7 @@ import { Builder } from '../src/builder'
 
 export default function Index() {
   const builder = new Builder()
-
+  console.log(builder)
   const porps = {
     headtitre: "Review generator",
     titre: "Générateur de critique évolué pour te la péter en société.",
